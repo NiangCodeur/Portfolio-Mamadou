@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Niang Codeur</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="" class="logo"><span>M</span>amadou</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="nav">
+        <a href="#home" class="active">Acceuil</a>
+        <a href="#about">A propos</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- header-section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>hello, C'est</h3>
+        <h1>
+          Mamadou <br />
+          from Sénégal
+        </h1>
+        <h3>et je suis un <span class="multiple-text"></span></h3>
+        <p>
+          Développeur Web dynamique dans la conception, <br />
+          le développement et la maintenance de sites Web
+        </p>
+        <div class="social-media">
+          <a href="https://www.youtube.com/@niangcodeur"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+          <a href="https://www.tiktok.com/@niang.codeur"
+            ><i class="bx bxl-tiktok"></i
+          ></a>
+          <a href="https://web.facebook.com/groups/871091474292775/"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://wa.me/774725061"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+        <a href="#about" class="btn">Voir Plus</a>
+      </div>
+      <!-- home-img -->
+      <div class="home-img">
+        <img src="images/apropos.png" alt="" />
+      </div>
+    </section>
+
+    <!-- section-about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/apropos.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="title">À propos de<span> Moi</span></h2>
+        <h3>Développeur frontend!</h3>
+        <p>
+          Je suis un développeur frontend passionné dans la création et
+          l'optimisation d'interfaces utilisateur. Dans ma carrière sur le
+          développement frontend, où j'ai pu mettre en pratique mes compétences
+          en HTML, CSS, JavaScript, ainsi que des frameworks populaires tels que
+          React.js.
+        </p>
+        <a href="" class="btn">En savoir plus</a>
+      </div>
+    </section>
+
+    <!-- section-services -->
+    <section class="services" id="services">
+      <h2 class="title"><span>S</span>ervices</h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Développement web</h3>
+          <p>création et la maintenance de sites web et d'applications web</p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-paint"></i>
+          <h3>Conception graphique</h3>
+          <p>
+            visuellement attrayants, offrant une meilleure expérience
+            utilisateur et renforçant l'identité visuelle d'une marque.
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Marketing Numérique</h3>
+          <p>
+            Permet à une entreprise de naviguer efficacement dans le paysage
+            numérique complexe, d'atteindre son public cible.
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio-section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="title"><span>P</span>rojets</h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/P1.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P2.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P3.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P4.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P5.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P6.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P7.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/P8.png" alt="" />
+          <div class="protfolio-desc"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact-section -->
+    <section class="contact" id="contact">
+      <h2 class="title"><span>C</span>ontact</h2>
+      <form action="">
+        <!-- <div class="input-box">
+          <!-- <input type="text" placeholder="Full Name" /> -->
+        <!-- <input type="email" placeholder="Email Address" /> 
+        </div> -->
+        <div class="input-box">
+          <input type="text" placeholder="Nom et prénom" />
+          <input type="email" placeholder="Adresse e-mail" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Votre Message"
+        ></textarea>
+        <input type="submit" value="envoyer le message" class="btn" />
+      </form>
+    </section>
+
+    <!-- section-footer -->
+    <div class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Niang Codeur.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home" class="btn">Retour a l'acceuil</a>
+      </div>
+    </div>
+
+    <!-- scroll reval -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
